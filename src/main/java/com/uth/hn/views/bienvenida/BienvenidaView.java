@@ -18,14 +18,14 @@ public class BienvenidaView extends VerticalLayout {
     public BienvenidaView() {
         setSpacing(false);
 
-        Image img = new Image("images/empty-plant.png", "placeholder plant");
-        img.setWidth("200px");
+        Image img = new Image("https://ibo.pe/blog/wp-content/uploads/2019/09/como-hacen-las-agencias-de-viajes-para-vender-paquetes-turisticos.jpg", "logo");
+        img.setWidth("500px");
         add(img);
 
-        H2 header = new H2("This place intentionally left empty");
+        H2 header = new H2("--- Sistema de Paquetes Turisticos  --- ");
         header.addClassNames(Margin.Top.XLARGE, Margin.Bottom.MEDIUM);
         add(header);
-        add(new Paragraph("It’s a place where you can grow your own UI 🤗"));
+        add(new Paragraph("Universidad Tecnológica de Honduras"));
 
         setSizeFull();
         setJustifyContentMode(JustifyContentMode.CENTER);
